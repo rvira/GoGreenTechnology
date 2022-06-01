@@ -982,7 +982,7 @@ blockquote::after {
 
 @media (max-width: 767px) {
   .jumbotron h1 {
-    font-size: 6rem; }
+    font-size: 8vw; }
   .grid-item {
     width: 100%; }
   .progress {
