@@ -888,6 +888,8 @@ blockquote::after {
     cursor: pointer;
     color: #102770;
     box-shadow: 0 12px 35px 0 rgba(255,235,167,.15);
+    word-wrap: break-word;
+    white-space: normal;
 }
 .sec-center {
   text-align: center;
@@ -985,6 +987,7 @@ blockquote::after {
     width: 100%; }
   .progress {
     height: 30px;
-    font-size: 16px; } }
+    font-size: 16px; } 
+  }
 
 /*=====  End of RESPONSIVE  ======*/
