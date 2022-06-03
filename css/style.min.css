@@ -3,15 +3,18 @@
  * https://gettemplates.co/roxy
  */
 html, body {
+  overflow-x :hidden;
   width: 100%;
 }
 
 body {
+  overflow-x :hidden;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
 }
 
 body::-webkit-scrollbar {
+  overflow-x :hidden;
   display: none;
 } 
 
@@ -33,7 +36,9 @@ h6,
 
 a {
   color: #55ad7a;
-  transition: all .3s ease-in-out; }
+  transition: all .3s ease-in-out; 
+  opacity: 1;
+}
 
 a:focus,
 button:focus {
@@ -98,7 +103,7 @@ section {
 }
 
 .navbar-nav:hover li a {
-  opacity: 0.5; }
+  opacity: 1; }
 
   /* .navbar-nav:hover li a:hover {
     background-color: #55ad7a;
