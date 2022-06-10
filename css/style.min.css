@@ -479,6 +479,18 @@ ul li::marker {
   background: #eee;
   padding: 1em;
   border-radius: 1em;
+  word-wrap: break-word;
+  white-space: normal;
+}
+.quote1 {
+  margin-left: 100px;
+  margin-right: 100px;
+  /* height: 10vw; */
+  background: #eee;
+  padding: 1em;
+  border-radius: 1em;
+  word-wrap: break-word;
+  white-space: normal;
 }
 .quote figcaption,
 .quote blockquote {
@@ -870,6 +882,7 @@ blockquote::after {
 .dropdown1 > summary {
   cursor: pointer;
   /* Customize from here down */
+    
     position: relative;
     font-weight: 500;
     font-size: 20px;
@@ -895,6 +908,8 @@ blockquote::after {
     box-shadow: 0 12px 35px 0 rgba(255,235,167,.15);
     word-wrap: break-word;
     white-space: normal;
+    min-height: 3vw;
+    margin-bottom: auto;
 }
 .sec-center {
   text-align: center;
@@ -907,6 +922,7 @@ blockquote::after {
   display: block;
   position: absolute; 
   width: 70%;
+  min-height: auto;
   left: 15%;
 }
 
@@ -934,8 +950,7 @@ blockquote::after {
   margin: 0;
   padding: 0;
   width: 100%;
-  position: absolute;
-  top: 1.5em;
+  position: relative;
   z-index: 999;
 }
 
