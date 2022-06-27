@@ -962,6 +962,12 @@ blockquote::after {
   color:#102770;
 }
 
+/* Horizontal Line for Dropdown */
+.vertical {
+  border-left: 5px solid black;
+  height: 200px;
+}
+
 /**
  * Style the dropdown list
  */
