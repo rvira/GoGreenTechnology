@@ -18,6 +18,29 @@ body::-webkit-scrollbar {
   display: none;
 } 
 
+/* Back to top button */
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  }
+
+  /* Style to Animate the number of visitors Counter */
+  
+
+  .backdrop {
+    background-color:rgba(0,0,0,0.5);
+     opacity: 0.5;
+     height: 100%;
+     left: 0;
+     position: fixed;
+     top: 0;
+     width: 100%;
+     z-index:100;
+     display: none;
+  }
+
 
 h1,
 h2,
@@ -125,7 +148,7 @@ section {
   }
 
   .navbar-nav:hover li:hover a{
-    background-color: #55ad7a;
+    background-color: rgb(85, 173, 122);
     opacity: 1;
   }
 
@@ -886,8 +909,8 @@ blockquote::after {
     position: relative;
     font-weight: 500;
     font-size: 20px;
-    line-height: 2;
-    height: 50px;
+    line-height: 2.5;
+    min-height: 3px;
     transition: all 200ms linear;
     border-radius: 4px;
     letter-spacing: 1px;
@@ -904,7 +927,7 @@ blockquote::after {
     border: none;
     background-color: #ffeba7;
     cursor: pointer;
-    color: #102770;
+    color: #0f0f0f;
     box-shadow: 0 12px 35px 0 rgba(255,235,167,.15);
     word-wrap: break-word;
     white-space: normal;
@@ -952,6 +975,8 @@ blockquote::after {
   width: 100%;
   position: relative;
   z-index: 999;
+  min-height:min-content;
+  /* height: 1vw; */
 }
 
 /**
@@ -963,6 +988,8 @@ blockquote::after {
   content: "\200B"; /* 1 */
   position: absolute; /* 2 */
 }
+
+
 
 /*=====  End of DROPDOWN  ======*/
 
@@ -986,7 +1013,7 @@ blockquote::after {
     padding-top: 15px !important;
     padding-bottom: 15px !important; }
   .navbar-transparent .navbar-collapse {
-    background: #55ad7a;
+    background:     #55ad7a;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #333399, #55ad7a);
     /* Chrome 10-25, Safari 5.1-6 */
